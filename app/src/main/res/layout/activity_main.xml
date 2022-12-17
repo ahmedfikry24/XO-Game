@@ -35,7 +35,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/player_1_label"
         app:layout_constraintEnd_toEndOf="@id/player_1_label"
-        app:layout_constraintTop_toBottomOf="@id/player_1_label" />
+        app:layout_constraintTop_toBottomOf="@id/player_1_label"
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:id="@+id/player_2_score"
@@ -46,7 +47,8 @@
         app:layout_constraintEnd_toEndOf="@id/player_2_label"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/player_2_label"
-        app:layout_constraintTop_toBottomOf="@id/player_2_label" />
+        app:layout_constraintTop_toBottomOf="@id/player_2_label"
+        android:layout_marginTop="10dp"/>
 
     <LinearLayout
         android:id="@+id/row1"
